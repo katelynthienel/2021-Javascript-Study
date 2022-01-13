@@ -1,0 +1,43 @@
+<!----Daily Check In 1/13: Time to begin broadening our horizons in Javascript! Daily Programming Challenge: Create an html file that has a button, an image, and a div with some text.  Design your page so that when you click the button the image disappears.
+--->
+<!--on change- as page changes from user input
+    on mouseover-mouse hover
+    on mouse out- mouse leaves object
+    on load- when page loads
+    on keydown- press key "down"
+    -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click button-show button, hover button- make image big</title>
+    <script>
+
+        function text() {
+            var image = document.getElementById("text");
+            image.style.display = "none";
+        }
+        function byeBye() {
+            var image = document.getElementById("size");
+            image.style.display = "none";
+        }
+
+    </script>
+</head>
+<body>
+
+<div id="text">hello</div>
+<button onClick="text">bye</button>
+
+
+
+
+
+<button type="button" onClick="text()">Click for a suprise!</button>
+<div id="text">hello</div>
+<button onClick="imageAway()">Click for suprise!</button>
+<button id="hello"/>
+
+
+</body>
+</html>
