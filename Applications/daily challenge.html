@@ -12,31 +12,20 @@
     <meta charset="UTF-8">
     <title>Click button-show button, hover button- make image big</title>
     <script>
-
-        function text() {
-            var image = document.getElementById("text");
-            image.style.display = "none";
+        function showButton(){
+            var btn = document.getElementById("btn");
+            btn.style.display = "block";
         }
-        function byeBye() {
-            var image = document.getElementById("size");
-            image.style.display = "none";
+        function bigImg(){
+            var image = document.getElementById("image");
+            img.style.width = "200%";
         }
-
     </script>
 </head>
 <body>
-
-<div id="text">hello</div>
-<button onClick="text">bye</button>
-
-
-
-
-
-<button type="button" onClick="text()">Click for a suprise!</button>
-<div id="text">hello</div>
-<button onClick="imageAway()">Click for suprise!</button>
-<button id="hello"/>
+<img src="img/koalaimg - Copy.jpg" id="image" width = "100"/>
+<div style="background:cyan" id="text" onClick="showButton()">Click for surprise</div>
+<button id="btn" style="display:none;" onmouseover="bigImg()">Want a Surprise?</button>
 
 
 </body>
