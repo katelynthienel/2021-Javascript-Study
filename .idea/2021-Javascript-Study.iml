@@ -11,5 +11,7 @@
     <orderEntry type="module" module-name="2021-Bootstrap-5" />
     <orderEntry type="module" module-name="2021-HTML-Study" />
     <orderEntry type="module" module-name="2021-Javascript-Test-Prep" />
+    <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="2021_Javascript_Unit_Test" />
   </component>
 </module>
